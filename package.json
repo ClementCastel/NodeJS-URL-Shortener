@@ -1,0 +1,31 @@
+{
+  "name": "NodeJS_URL_Shortener",
+  "version": "1.0.0",
+  "description": "NodeJS URL Shortener",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Th3Sword290/NodeJS-URL-Shortener.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Th3Sword290/NodeJS-URL-Shortener/issues"
+  },
+  "homepage": "https://github.com/Th3Sword290/NodeJS-URL-Shortener#readme",
+  "dependencies": {
+    "config": "^3.2.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.10",
+    "shortid": "^2.2.14",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
